@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CardX – One Card, Infinite Possibilities</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="hero">
+    <nav>
+      <h1 class="logo">CardX</h1>
+    </nav>
+    <div class="hero-content">
+      <div class="text">
+        <h2>Revolutionize Your Wallet</h2>
+        <p>The world’s first universal smart card – secure, customizable, and interactive. Replace all your cards with one ultra-premium, fingerprint-authenticated device. Tap. Switch. Unlock.</p>
+        <button onclick="scrollToModel()">See it in action</button>
+      </div>
+
+      <div class="card-container">
+        <div class="card">
+          <div class="screen">
+            <h3 id="card-name">HDFC Platinum</h3>
+            <p id="card-balance">₹7,200.00</p>
+          </div>
+          <div class="fingerprint" onclick="switchCard()"></div>
+        </div>
+        <button class="switch-btn" onclick="switchCard()">Switch Card</button>
+      </div>
+    </div>
+  </div>
+
+  <section class="features" id="features">
+    <h3>🧠 Smart Features</h3>
+    <div class="cards">
+      <div class="feature-card">
+        <h4>🔐 Biometric Security</h4>
+        <p>Authenticate instantly with your fingerprint – ultra-secure access for every transaction.</p>
+      </div>
+      <div class="feature-card">
+        <h4>📟 Dynamic Display</h4>
+        <p>See card info, offers, and balances on a responsive mini-screen built into the device.</p>
+      </div>
+      <div class="feature-card">
+        <h4>🌀 Tactile Switch Dial</h4>
+        <p>Swipe between stored cards using a rotating ring-inspired interface. Smooth. Premium.</p>
+      </div>
+      <div class="feature-card">
+        <h4>📶 NFC & RFID Ready</h4>
+        <p>Tap to pay, enter transport gates, or scan into events – all with one powerful card.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Crafted with 💗 by Team CardX for the Hackathon</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
